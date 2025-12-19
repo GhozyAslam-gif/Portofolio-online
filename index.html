@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portofolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    </head>
+
+    <body>
+        <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                AOS.init();
+            });
+        </script>
+
+        
+    
+
+        <div class="background-animation">
+            <ul class="squares">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+        <header class="header">
+            <a href="#home" class="logo" data-aos="fade-right">Gho<span>zy.</span></a>
+
+            <input type="checkbox" id="check">
+            <label for="check" class="icons">
+                <i class='bx bx-menu' id="menu-icon"></i>
+                <i class='bx bx-x' id="close-icon"></i>
+            </label>
+
+            
+            <nav class="navbar" data-aos="fade-down">
+                <a href="#home" style="--i:0" class="active">Beranda</a>
+                <a href="#about" style="--i:1">Tentang</a>
+                <a href="#skills" style="--i:2">Keahlian</a>
+                <a href="#portfolio" style="--i:3">Karya</a>
+                <a href="#contact" style="--i:4">Kontak</a>
+                <i class='bx bx-moon' id="theme-toggle"></i>
+            </nav>
+        </header>
+
+
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Halo, Saya</h3>
+                <h2>Ghozy Aslam</h2>
+                <h4 class="hero-description">Seorang <span class="multiple-text"><span class="typing-text">Desainer Grafis</span></span></h4>
+                <p>Saya bersemangat dalam menciptakan solusi desain yang berdampak. Lihatlah karya-karya terbaik saya di bawah!</p>
+                <div class="social-media" data-aos="fade-up">
+                    <a href="https://t.me/HSI_Ghozy"><i class='fab fa-telegram'></i></a>
+                    <a href="https://instagram.com/ghozz.as"><i class='fab fa-instagram'></i></a>
+                    <a href="https://github.com/GhozyAslam-gif"><i class='fab fa-github'></i></a>
+                </div>
+            </div>
+            <div class="img-zoom">
+                <div class="home-img">
+                    <img src="image/image (5).png" alt="Foto Profil Profesional Anda">
+                </div>
+            </div>
+            
+        </section>
+
+
+        <section id="about"data-aos="fade-up">
+            <h2 class="heading">Tentang <span>Saya</span></h2>
+
+            <div class="about-content" data-aos="fade-up">
+                <p>Nama saya Ghozy Aslam, saya orang Indonesia, saya lahir di Bekasi pada tanggal 01 April 2010.
+                    Saya adalah seorang pengembang web front-end. Saya dapat membuat situs web lebih interaktif dengan animasi.
+                    Saya telah mempelajari HTML, CSS, dan JavaScript. Saya menggunakan Visual Studio Code & Antigravity sebagai editor kode sumber saya.</p>
+            </div>
+        </section>
+
+
+        <section class="skills" id="skills" data-aos="fade-up">
+            <h2 class="heading">Keahlian <span>Saya</span></h2>
+
+            <div class="skills-container" data-aos="fade-up-right">
+                <div class="skills-box">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                </div>
+                <div class="skills-box">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skills-box">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="portfolio">
+            <h2 class="heading" data-aos="fade-up">Karya <span>Saya</span></h2>
+
+
+            <div class="portfolio-container" data-aos="fade-up">
+                <div class="portfolio-box" data-aos="fade-up-right">
+                    <img src="https://cdn.prod.website-files.com/65af5f0812c914d3fef6a68c/65f27c26e1af10be0127caf2_5.%20Menggali%20Kearifan%20Spiritual%20dalam%20Petunjuk%20Al-Quran.jpg" alt="Diniyah">
+                    <div class="portfolio-layer">
+                        <h4 class="portfolio-title">Tasmi' Juz 30</h4>
+                        <button class="portfolio-button"><a href="https://drive.google.com/drive/folders/1vuZdwV7r97KuBcR_gYg006lOd6wRXZB4?usp=sharing">Lihat</a></button>
+                    </div>
+                </div>
+                
+                <div class="portfolio-box" data-aos="fade-up-left">
+                    <img src="https://konsultasisyariah.com/wp-content/uploads/2012/10/kitab-kuning.jpg" alt="Gambar Kitab">
+                    <div class="portfolio-layer">
+                        <h4 class="portfolio-title">Tugas-Tugas Bahasa Arab</h4>
+                        <p class="portfolio-description">Video-video yang menggunakan Bahasa Arab</p>
+                        <button class="portfolio-button"><a href="https://docs.google.com/spreadsheets/d/1UWLK2TManm2HHx2kTHKCDdFjcy1MUoDdSlxyqWK05AM/edit?gid=0#gid=0">Lihat</a></button>
+                    </div>
+                </div>
+
+                <div class="portfolio-box" data-aos="fade-up-right">
+                    <img src="image/Tahajji.jpg" alt="Gambar Kitab Qoidah Samiriyyah">
+                    <div class="portfolio-layer">
+                        <h4 class="portfolio-title">Tugas Tahajji</h4>
+                        <p class="portfolio-description">Video Tasmi' Kitab Qoidah Samiriyyah</p>
+                        <button class="portfolio-button"><a href="https://drive.google.com/drive/folders/1QOs28RbNeebzH9TNiasWUNEPyeRaG5iI?usp=sharing">Lihat</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-bx" data-aos="fade-up-right">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNiiUlZsjpYkgQhaGS1lKrCPzWrp4ME8CLmA&s" alt="Gambar Codingan">
+                <div class="portfolio-layer">
+                    <h4 class="portfolio-title">Tugas IT</h4>
+                    <button class="portfolio-button-2"><a href="https://github.com/GhozyAslam-gif/API-Python">Python</a></button>
+                    <button class="portfolio-button-1"><a href="https://ghozyaslam-gif.github.io/">Slicing</a></button>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="contact" id="contact">
+            <h2 class="heading" data-aos="fade-up">Hubungi <span>Saya</span></h2>
+            <p class="contact-text" data-aos="fade-up">
+                Jika Anda tertarik untuk bekerja sama atau memiliki pertanyaan, jangan ragu untuk menghubungi saya melalui aplikasi medsos yang ada di bawah ini :
+                <div class="social-media" data-aos="fade-down">
+                    <div class="sosial-media">
+                        <a href="https://instagram.com/ghozz.as"><i class="fab fa-instagram"></i></a>
+                        <a href="https://t.me/HSI_Ghozy"><i class="fab fa-telegram"></i></a>
+                        <a href="https://wa.me/6287786378492" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://github.com/GhozyAslam-gif"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </p>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Hak Cipta &copy; 2024 oleh Ghozy Aslam</p>
+            </div>
+
+            <div class="footer-icon-top">
+                <a href="#home"><i class='bx bx-chevron-up'></i></a>
+            </div>
+            
+        </footer>
+
+        <script src="Javascript.js"></script>
+        <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    
+
+    </body>
+</html>
