@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portofolio - Ghozy Aslam</title>
+        <meta name="description" content="Portofolio Ghozy Aslam - Desainer Grafis & Pengembang Web Front-End">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    </head>
+
+    <body>
+        <!-- Background Animation -->
+        <div class="background-animation">
+            <ul class="squares">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+        <!-- Canvas for Star Animation -->
+        <canvas></canvas>
+
+        <!-- Header & Navigation -->
+        <header class="header">
+            <a href="#home" class="logo" data-aos="fade-right">Gho<span>zy.</span></a>
+
+            <input type="checkbox" id="check">
+            <label for="check" class="icons">
+                <i class='bx bx-menu' id="menu-icon"></i>
+                <i class='bx bx-x' id="close-icon"></i>
+            </label>
+
+            <nav class="navbar" data-aos="fade-down">
+                <a href="#home" style="--i:0" class="active">Beranda</a>
+                <a href="#about" style="--i:1">Tentang</a>
+                <a href="#skills" style="--i:2">Keahlian</a>
+                <a href="#portfolio" style="--i:3">Karya</a>
+                <a href="#contact" style="--i:4">Kontak</a>
+                <i class='bx bx-moon' id="theme-toggle"></i>
+            </nav>
+        </header>
+
+        <!-- Home Section -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Halo, Saya</h3>
+                <h2>Ghozy Aslam</h2>
+                <h4 class="hero-description">Seorang <span class="multiple-text"><span class="typing-text">Desainer Grafis</span></span></h4>
+                <p>Saya bersemangat dalam menciptakan solusi desain yang berdampak. Lihatlah karya-karya terbaik saya di bawah!</p>
+                <div class="social-media" data-aos="fade-up">
+                    <a href="https://t.me/HSI_Ghozy"><i class='fab fa-telegram'></i></a>
+                    <a href="https://instagram.com/ghozz.as"><i class='fab fa-instagram'></i></a>
+                    <a href="https://github.com/GhozyAslam-gif"><i class='fab fa-github'></i></a>
+                </div>
+            </div>
+            <div class="img-zoom">
+                <div class="home-img">
+                    <img src="image/image (5).png" alt="Foto Profil Ghozy Aslam">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" data-aos="fade-up">
+            <h2 class="heading">Tentang <span>Saya</span></h2>
+
+            <div class="about-content" data-aos="fade-up">
+                <p>Nama saya Ghozy Aslam, saya orang Indonesia, saya lahir di Bekasi pada tanggal 01 April 2010.
+                    Saya adalah seorang pengembang web front-end. Saya dapat membuat situs web lebih interaktif dengan animasi.
+                    Saya telah mempelajari HTML, CSS, dan JavaScript. Saya menggunakan Visual Studio Code &amp; Antigravity sebagai editor kode sumber saya.</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills" id="skills" data-aos="fade-up">
+            <h2 class="heading">Keahlian <span>Saya</span></h2>
+
+            <div class="skills-container" data-aos="fade-up-right">
+                <div class="skills-box">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                </div>
+                <div class="skills-box">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skills-box">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio">
+            <h2 class="heading" data-aos="fade-up">Karya <span>Saya</span></h2>
+
+            <div class="portfolio-container" data-aos="fade-up">
+                <div class="portfolio-box" data-aos="fade-up-right">
+                    <img src="https://cdn.prod.website-files.com/65af5f0812c914d3fef6a68c/65f27c26e1af10be0127caf2_5.%20Menggali%20Kearifan%20Spiritual%20dalam%20Petunjuk%20Al-Quran.jpg" alt="Diniyah">
+                    <div class="portfolio-layer">
+                        <h4 class="portfolio-title">Tasmi' Juz 30</h4>
+                        <button class="portfolio-button"><a href="https://drive.google.com/drive/folders/1vuZdwV7r97KuBcR_gYg006lOd6wRXZB4?usp=sharing">Lihat</a></button>
+                    </div>
+                </div>
+
+                <div class="portfolio-box" data-aos="fade-up-left">
+                    <img src="https://konsultasisyariah.com/wp-content/uploads/2012/10/kitab-kuning.jpg" alt="Gambar Kitab">
+                    <div class="portfolio-layer">
+                        <h4 class="portfolio-title">Tugas-Tugas Bahasa Arab</h4>
+                        <p class="portfolio-description">Video-video yang menggunakan Bahasa Arab</p>
+                        <button class="portfolio-button"><a href="https://docs.google.com/spreadsheets/d/1UWLK2TManm2HHx2kTHKCDdFjcy1MUoDdSlxyqWK05AM/edit?gid=0#gid=0">Lihat</a></button>
+                    </div>
+                </div>
+
+                <div class="portfolio-box" data-aos="fade-up-right">
+                    <img src="image/Tahajji.jpg" alt="Gambar Kitab Qoidah Samiriyyah">
+                    <div class="portfolio-layer">
+                        <h4 class="portfolio-title">Tugas Tahajji</h4>
+                        <p class="portfolio-description">Video Tasmi' Kitab Qoidah Samiriyyah</p>
+                        <button class="portfolio-button"><a href="https://drive.google.com/drive/folders/1QOs28RbNeebzH9TNiasWUNEPyeRaG5iI?usp=sharing">Lihat</a></button>
+                    </div>
+                </div>
+
+                <div class="portfolio-box" data-aos="fade-up-left">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNiiUlZsjpYkgQhaGS1lKrCPzWrp4ME8CLmA&s" alt="Gambar Codingan">
+                    <div class="portfolio-layer">
+                        <h4 class="portfolio-title">Tugas IT</h4>
+                        <div class="portfolio-buttons">
+                            <button class="portfolio-button"><a href="https://github.com/GhozyAslam-gif/API-Python">Python</a></button>
+                            <button class="portfolio-button"><a href="https://ghozyaslam-gif.github.io/">Slicing</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-box" data-aos="fade-up-right">
+                    <img src="data:image/jpeg;base64,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
+                    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" alt="Gambar Codingan">
+                    <div class="portfolio-layer">
+                        <h4 class="portfolio-title">Pelajaran Ramadhan</h4>
+                        <button class="portfolio-button"><a href="https://drive.google.com/drive/folders/1f8iC8zZbJBx229sFiMnmnz7qnzacgQ7f?usp=sharing">Klik</a></button>
+                    </div>
+                </div>
+
+                <div class="portfolio-box" data-aos="fade-up-right">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeDWuMRM3cSWvIxWv3rQ_ifz2oVxTCCLwHHw&s" alt="Markaz Mulazamah Ya salam">
+                    <div class="portfolio-layer">
+                        <h4 class="portfolio-title">3 Matan</h4>
+                        <button class="portfolio-button"><a href="https://drive.google.com/drive/folders/1EpaB4XTgKJX7NsQs00kO6xhfxqXhVuP2?usp=sharing">Klik</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <h2 class="heading" data-aos="fade-up">Hubungi <span>Saya</span></h2>
+            <p class="contact-text" data-aos="fade-up">
+                Jika Anda tertarik untuk bekerja sama atau memiliki pertanyaan, jangan ragu untuk menghubungi saya melalui aplikasi medsos yang ada di bawah ini :
+            </p>
+            <div class="social-media" data-aos="fade-down">
+                <div class="sosial-media">
+                    <a href="https://instagram.com/ghozz.as"><i class="fab fa-instagram"></i></a>
+                    <a href="https://t.me/HSI_Ghozy"><i class="fab fa-telegram"></i></a>
+                    <a href="https://wa.me/6287786378492" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://github.com/GhozyAslam-gif"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Hak Cipta &copy; 2024 oleh Ghozy Aslam</p>
+            </div>
+
+            <div class="footer-icon-top">
+                <a href="#home"><i class='bx bx-chevron-up'></i></a>
+            </div>
+        </footer>
+
+        <!-- Scripts: AOS must load BEFORE Javascript.js uses it -->
+        <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                AOS.init();
+            });
+        </script>
+        <script src="Javascript.js"></script>
+    </body>
+</html>
